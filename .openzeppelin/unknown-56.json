@@ -1,0 +1,303 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [
+    {
+      "address": "0xBf5036d29F9EF09C42d667742b68Ddfa1C82095a",
+      "txHash": "0x2bb3b8049f492fe739c574290045c077c446f1bbac0cde450d3c7521f172d45f",
+      "kind": "uups"
+    }
+  ],
+  "impls": {
+    "93a860238264e9c66b5e7610d56c5856dd36d44165836f3768b080aeb7e8005e": {
+      "address": "0xe946830033e70Ed0fdf5F9D070017518582D6efE",
+      "txHash": "0xddf4d3f7e30aab47727603e4fd7267636a7ae659d66e21cfa7656fc728e847fa",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_paused",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_bool",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:116"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol:107"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "202",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "pred",
+            "offset": 0,
+            "slot": "251",
+            "type": "t_contract(IBEP20)3767",
+            "contract": "Predictverse",
+            "src": "contracts/Predictverse.sol:58"
+          },
+          {
+            "label": "predPerBlock",
+            "offset": 0,
+            "slot": "252",
+            "type": "t_uint256",
+            "contract": "Predictverse",
+            "src": "contracts/Predictverse.sol:60"
+          },
+          {
+            "label": "BONUS_MULTIPLIER",
+            "offset": 0,
+            "slot": "253",
+            "type": "t_uint256",
+            "contract": "Predictverse",
+            "src": "contracts/Predictverse.sol:62"
+          },
+          {
+            "label": "bank",
+            "offset": 0,
+            "slot": "254",
+            "type": "t_contract(PredictverseBank)3689",
+            "contract": "Predictverse",
+            "src": "contracts/Predictverse.sol:64"
+          },
+          {
+            "label": "poolInfo",
+            "offset": 0,
+            "slot": "255",
+            "type": "t_array(t_struct(PoolInfo)2536_storage)dyn_storage",
+            "contract": "Predictverse",
+            "src": "contracts/Predictverse.sol:67"
+          },
+          {
+            "label": "userInfo",
+            "offset": 0,
+            "slot": "256",
+            "type": "t_mapping(t_uint256,t_mapping(t_address,t_struct(UserInfo)2518_storage))",
+            "contract": "Predictverse",
+            "src": "contracts/Predictverse.sol:69"
+          },
+          {
+            "label": "totalAllocPoint",
+            "offset": 0,
+            "slot": "257",
+            "type": "t_uint256",
+            "contract": "Predictverse",
+            "src": "contracts/Predictverse.sol:71"
+          },
+          {
+            "label": "startBlock",
+            "offset": 0,
+            "slot": "258",
+            "type": "t_uint256",
+            "contract": "Predictverse",
+            "src": "contracts/Predictverse.sol:73"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_bytes32)dyn_storage": {
+            "label": "bytes32[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(PoolInfo)2536_storage)dyn_storage": {
+            "label": "struct Predictverse.PoolInfo[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_contract(IBEP20)3767": {
+            "label": "contract IBEP20",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IERC721)2113": {
+            "label": "contract IERC721",
+            "numberOfBytes": "20"
+          },
+          "t_contract(PredictverseBank)3689": {
+            "label": "contract PredictverseBank",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_struct(UserInfo)2518_storage)": {
+            "label": "mapping(address => struct Predictverse.UserInfo)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_mapping(t_address,t_struct(UserInfo)2518_storage))": {
+            "label": "mapping(uint256 => mapping(address => struct Predictverse.UserInfo))",
+            "numberOfBytes": "32"
+          },
+          "t_struct(PoolInfo)2536_storage": {
+            "label": "struct Predictverse.PoolInfo",
+            "members": [
+              {
+                "label": "nft",
+                "type": "t_contract(IERC721)2113",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "allocPoint",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "lastRewardBlock",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "accPredPerShare",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_struct(Set)1290_storage": {
+            "label": "struct EnumerableSetUpgradeable.Set",
+            "members": [
+              {
+                "label": "_values",
+                "type": "t_array(t_bytes32)dyn_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_indexes",
+                "type": "t_mapping(t_bytes32,t_uint256)",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(UintSet)1748_storage": {
+            "label": "struct EnumerableSetUpgradeable.UintSet",
+            "members": [
+              {
+                "label": "_inner",
+                "type": "t_struct(Set)1290_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(UserInfo)2518_storage": {
+            "label": "struct Predictverse.UserInfo",
+            "members": [
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "tokens",
+                "type": "t_struct(UintSet)1748_storage",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "rewardDebt",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}
