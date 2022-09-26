@@ -5,3 +5,6 @@ BEP20.sol
 .env.development
 .env.production
 .env.staging
+typechain-types 
+artifacts
+cache 

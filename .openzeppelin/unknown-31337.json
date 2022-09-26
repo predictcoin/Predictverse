@@ -122,11 +122,6 @@
       "kind": "uups"
     },
     {
-      "address": "0x4ed7c70F96B99c776995fB64377f0d4aB3B0e1C1",
-      "txHash": "0x5565c7c353eb9c056737156e2b73e5b60c98374184bd09aefb14d24d27a88263",
-      "kind": "uups"
-    },
-    {
       "address": "0xc3e53F4d16Ae77Db1c982e75a937B9f60FE63690",
       "txHash": "0xdc5a43486aed372916f0b49261ff841b20a360d1edd201d4f27c01567dc19a53",
       "kind": "uups"
@@ -232,11 +227,6 @@
       "kind": "uups"
     },
     {
-      "address": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
-      "txHash": "0x825246592cf660476a8e0b4fc168272f0e04aaf3f760b4092384f1450cef7ab4",
-      "kind": "uups"
-    },
-    {
       "address": "0x59b670e9fA9D0A427751Af201D676719a970857b",
       "txHash": "0x1d21a2d2b96385cb38baf5efd3357694a492be778dd2bcf2ab2b33ee0bd887fc",
       "kind": "uups"
@@ -244,11 +234,6 @@
     {
       "address": "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
       "txHash": "0x9faae2095bbe7065fe0f22998394f6579ceeda133ecc67c4087c98b0c84e8bff",
-      "kind": "uups"
-    },
-    {
-      "address": "0x959922bE3CAee4b8Cd9a407cc3ac1C251C2007B1",
-      "txHash": "0x0f09e1b634794c7ace0bbcd61a94420abe1d66cec17da801a0a12211305c4879",
       "kind": "uups"
     },
     {
@@ -384,6 +369,66 @@
     {
       "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
       "txHash": "0xafdfa8862466c9d3eec554d32b0c51bd647c8970931b020e1f1abdd9c64bd3ab",
+      "kind": "uups"
+    },
+    {
+      "address": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
+      "txHash": "0xeddcf9fe3f11427a66eb018af13da3ed38b9a387d7df16ba088ecad88783cb5b",
+      "kind": "uups"
+    },
+    {
+      "address": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
+      "txHash": "0x4f33a19acb13d45a434104cdf62def45048eb578c4201e1b5ef29e6a46ffc966",
+      "kind": "uups"
+    },
+    {
+      "address": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
+      "txHash": "0xba2a8040d99c650bf7d864e2b2433a5d27f6b51feac5da92e44055549c7cc076",
+      "kind": "uups"
+    },
+    {
+      "address": "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318",
+      "txHash": "0xe6c70af6fb3721418bca748676bbfb5851ed01bad62ec06eecedc420fe5fb617",
+      "kind": "uups"
+    },
+    {
+      "address": "0x959922bE3CAee4b8Cd9a407cc3ac1C251C2007B1",
+      "txHash": "0xd6b672d453d32b6d5ad5fe305b25784d9ce75fd1d343c98b225a8ecec3268744",
+      "kind": "uups"
+    },
+    {
+      "address": "0x4ed7c70F96B99c776995fB64377f0d4aB3B0e1C1",
+      "txHash": "0x1f24c89ea2aea03cdc72dc3a95fa014b2e09f33c21ba9b36eafafa77fb7ef3c2",
+      "kind": "uups"
+    },
+    {
+      "address": "0xE6E340D132b5f46d1e472DebcD681B2aBc16e57E",
+      "txHash": "0xe8fe4dc7491ccb78cf4a2bd61549262f7ab92d166b5220142bf17d42e346b861",
+      "kind": "uups"
+    },
+    {
+      "address": "0x95401dc811bb5740090279Ba06cfA8fcF6113778",
+      "txHash": "0x8c07812619f7963911e78ab5cc90228e9f4ad5cb3af1ca1397048fff87b315cd",
+      "kind": "uups"
+    },
+    {
+      "address": "0x5eb3Bc0a489C5A8288765d2336659EbCA68FCd00",
+      "txHash": "0xe56fe3bd39dbf745173e4d70656560ec55fbfddb16494cdbdcea4e0d026e11b1",
+      "kind": "uups"
+    },
+    {
+      "address": "0x2bdCC0de6bE1f7D2ee689a0342D76F52E8EFABa3",
+      "txHash": "0x7e4db4d57504a02380ec3e7df4d861a31e75f23fde2d61d7952540ad6296bc39",
+      "kind": "uups"
+    },
+    {
+      "address": "0x1fA02b2d6A771842690194Cf62D91bdd92BfE28d",
+      "txHash": "0x8b60c5e5b7ee5588e42751c13e432e439d29574556e93c773a20b9d0c5762ad9",
+      "kind": "uups"
+    },
+    {
+      "address": "0x0355B7B8cb128fA5692729Ab3AAa199C1753f726",
+      "txHash": "0x881aaf5cf1d5e327813031dbbedc88ea010570fc312a5870c1f6581f9791b584",
       "kind": "uups"
     }
   ],
@@ -667,6 +712,241 @@
               }
             ],
             "numberOfBytes": "128"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "a7305a9f576c61de15e3125f91ad36c6407b0c2fe26047660a5ad6b12c3f2dbe": {
+      "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+      "txHash": "0x3c62863f51ee722bef3ef39f00c42486c0fbabc49690e4ba9fabb54d066f7559",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_paused",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_bool",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:116"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol:107"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "202",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "collateral",
+            "offset": 0,
+            "slot": "251",
+            "type": "t_uint256",
+            "contract": "PredictcoinSquadMarket",
+            "src": "contracts/PredictcoinSquadMarket.sol:31"
+          },
+          {
+            "label": "lockPeriod",
+            "offset": 0,
+            "slot": "252",
+            "type": "t_uint256",
+            "contract": "PredictcoinSquadMarket",
+            "src": "contracts/PredictcoinSquadMarket.sol:32"
+          },
+          {
+            "label": "predictcoinSquad",
+            "offset": 0,
+            "slot": "253",
+            "type": "t_contract(IERC721)2000",
+            "contract": "PredictcoinSquadMarket",
+            "src": "contracts/PredictcoinSquadMarket.sol:33"
+          },
+          {
+            "label": "predictcoin",
+            "offset": 0,
+            "slot": "254",
+            "type": "t_contract(IBEP20)2637",
+            "contract": "PredictcoinSquadMarket",
+            "src": "contracts/PredictcoinSquadMarket.sol:34"
+          },
+          {
+            "label": "borrowData",
+            "offset": 0,
+            "slot": "255",
+            "type": "t_mapping(t_uint256,t_struct(BorrowData)2063_storage)",
+            "contract": "PredictcoinSquadMarket",
+            "src": "contracts/PredictcoinSquadMarket.sol:35"
+          },
+          {
+            "label": "allPrederBorrows",
+            "offset": 0,
+            "slot": "256",
+            "type": "t_mapping(t_address,t_struct(UintSet)1748_storage)",
+            "contract": "PredictcoinSquadMarket",
+            "src": "contracts/PredictcoinSquadMarket.sol:36"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_bytes32)dyn_storage": {
+            "label": "bytes32[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_contract(IBEP20)2637": {
+            "label": "contract IBEP20",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IERC721)2000": {
+            "label": "contract IERC721",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_struct(UintSet)1748_storage)": {
+            "label": "mapping(address => struct EnumerableSetUpgradeable.UintSet)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(BorrowData)2063_storage)": {
+            "label": "mapping(uint256 => struct PredictcoinSquadMarket.BorrowData)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(BorrowData)2063_storage": {
+            "label": "struct PredictcoinSquadMarket.BorrowData",
+            "members": [
+              {
+                "label": "collateral",
+                "type": "t_uint128",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "lockEnd",
+                "type": "t_uint128",
+                "offset": 16,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(Set)1290_storage": {
+            "label": "struct EnumerableSetUpgradeable.Set",
+            "members": [
+              {
+                "label": "_values",
+                "type": "t_array(t_bytes32)dyn_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_indexes",
+                "type": "t_mapping(t_bytes32,t_uint256)",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(UintSet)1748_storage": {
+            "label": "struct EnumerableSetUpgradeable.UintSet",
+            "members": [
+              {
+                "label": "_inner",
+                "type": "t_struct(Set)1290_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_uint128": {
+            "label": "uint128",
+            "numberOfBytes": "16"
           },
           "t_uint256": {
             "label": "uint256",

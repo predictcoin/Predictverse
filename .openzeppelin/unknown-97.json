@@ -10,6 +10,11 @@
       "address": "0x1d7dd6f6B293E3418E164C118A77E3Dd43cf714B",
       "txHash": "0x4f87f3b2a72453e971d90b5ee0fa45e75f097c965eba5be3465169f9f6193743",
       "kind": "uups"
+    },
+    {
+      "address": "0x51cAC3cC4CDbe104062a474De77ddD0bb58f788f",
+      "txHash": "0xde2f816069cbaebce6c363c0bbefa9e2ba362b3cf1137362c306c8a49da53399",
+      "kind": "uups"
     }
   ],
   "impls": {
@@ -414,6 +419,241 @@
           },
           "t_bool": {
             "label": "bool"
+          }
+        }
+      }
+    },
+    "a7305a9f576c61de15e3125f91ad36c6407b0c2fe26047660a5ad6b12c3f2dbe": {
+      "address": "0x031a73c488b635037719Bd747b4bC0C47D5ea8f9",
+      "txHash": "0x6848d5597ebcd3f1cfc40b1f2659ed7d3bdd96ba9bc3a99e4d09fe5ab6c46a02",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_paused",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_bool",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:116"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol:107"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "202",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "collateral",
+            "offset": 0,
+            "slot": "251",
+            "type": "t_uint256",
+            "contract": "PredictcoinSquadMarket",
+            "src": "contracts/PredictcoinSquadMarket.sol:31"
+          },
+          {
+            "label": "lockPeriod",
+            "offset": 0,
+            "slot": "252",
+            "type": "t_uint256",
+            "contract": "PredictcoinSquadMarket",
+            "src": "contracts/PredictcoinSquadMarket.sol:32"
+          },
+          {
+            "label": "predictcoinSquad",
+            "offset": 0,
+            "slot": "253",
+            "type": "t_contract(IERC721)2000",
+            "contract": "PredictcoinSquadMarket",
+            "src": "contracts/PredictcoinSquadMarket.sol:33"
+          },
+          {
+            "label": "predictcoin",
+            "offset": 0,
+            "slot": "254",
+            "type": "t_contract(IBEP20)2637",
+            "contract": "PredictcoinSquadMarket",
+            "src": "contracts/PredictcoinSquadMarket.sol:34"
+          },
+          {
+            "label": "borrowData",
+            "offset": 0,
+            "slot": "255",
+            "type": "t_mapping(t_uint256,t_struct(BorrowData)2063_storage)",
+            "contract": "PredictcoinSquadMarket",
+            "src": "contracts/PredictcoinSquadMarket.sol:35"
+          },
+          {
+            "label": "allPrederBorrows",
+            "offset": 0,
+            "slot": "256",
+            "type": "t_mapping(t_address,t_struct(UintSet)1748_storage)",
+            "contract": "PredictcoinSquadMarket",
+            "src": "contracts/PredictcoinSquadMarket.sol:36"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_bytes32)dyn_storage": {
+            "label": "bytes32[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_contract(IBEP20)2637": {
+            "label": "contract IBEP20",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IERC721)2000": {
+            "label": "contract IERC721",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_struct(UintSet)1748_storage)": {
+            "label": "mapping(address => struct EnumerableSetUpgradeable.UintSet)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(BorrowData)2063_storage)": {
+            "label": "mapping(uint256 => struct PredictcoinSquadMarket.BorrowData)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(BorrowData)2063_storage": {
+            "label": "struct PredictcoinSquadMarket.BorrowData",
+            "members": [
+              {
+                "label": "collateral",
+                "type": "t_uint128",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "lockEnd",
+                "type": "t_uint128",
+                "offset": 16,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(Set)1290_storage": {
+            "label": "struct EnumerableSetUpgradeable.Set",
+            "members": [
+              {
+                "label": "_values",
+                "type": "t_array(t_bytes32)dyn_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_indexes",
+                "type": "t_mapping(t_bytes32,t_uint256)",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(UintSet)1748_storage": {
+            "label": "struct EnumerableSetUpgradeable.UintSet",
+            "members": [
+              {
+                "label": "_inner",
+                "type": "t_struct(Set)1290_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_uint128": {
+            "label": "uint128",
+            "numberOfBytes": "16"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
           }
         }
       }
