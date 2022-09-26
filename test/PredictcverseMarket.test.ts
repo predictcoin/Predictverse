@@ -7,7 +7,7 @@ import {
   PredictcoinSquad, 
  } from "../typechain-types";
 
-describe("PredictcoinMarketSquad", () => {
+describe("PredictverseMarket", () => {
 
   let market: PredictcoinSquadMarket, pred: Predictcoin, squad: PredictcoinSquad;
   let owner, prederA, prederB;
@@ -23,7 +23,7 @@ describe("PredictcoinMarketSquad", () => {
     const Squad = await ethers.getContractFactory("PredictcoinSquad");
     squad = await Squad.deploy() as PredictcoinSquad;
 
-    const Market = await ethers.getContractFactory("PredictcoinSquadMarket");
+    const Market = await ethers.getContractFactory("PredictverseMarket");
     market = await upgrades.deployProxy(
       Market, [collateral, squad.address, pred.address, lockPeriod], {kind: "uups"}
     ) as PredictcoinSquadMarket;
@@ -146,6 +146,22 @@ describe("PredictcoinMarketSquad", () => {
       }
       await expect(squad.tokenOfOwnerByIndex(market.address, 0))
         .to.be.revertedWith("ERC721Enumerable: owner index out of bounds");
+    })
+
+    it("should return market NFTs", async () => {
+      const nfts1 = await market.getMarketNFTs();
+      await market.borrow([3]);
+      const nfts2 = await market.getMarketNFTs();
+      await market.withdrawNFTs([0, 2, 5, 6]);
+      const nfts3 = await market.getMarketNFTs();
+
+      expect(nfts1.length).to.equal(10);
+      expect(nfts2.length).to.equal(nfts1.length);
+      expect(nfts3.length).to.equal(6);
+      [0, 2, 5, 6].forEach(index => {
+        expect(nfts3.map(i => i.toNumber()).indexOf(index)).to.equal(-1);
+        expect(nfts2.map(i => i.toNumber()).indexOf(index)).to.not.equal(-1);
+      })
     })
   })
 })

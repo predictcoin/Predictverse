@@ -14,7 +14,7 @@ import "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol";
 import "hardhat/console.sol";
 
 
-contract PredictcoinSquadMarket is Initializable, PausableUpgradeable, UUPSUpgradeable, OwnableUpgradeable, IERC721Receiver{
+contract PredictverseMarket is Initializable, PausableUpgradeable, UUPSUpgradeable, OwnableUpgradeable, IERC721Receiver{
   using SafeBEP20 for IBEP20;
   using EnumerableSetUpgradeable for EnumerableSetUpgradeable.UintSet;
   struct BorrowData{
@@ -33,6 +33,7 @@ contract PredictcoinSquadMarket is Initializable, PausableUpgradeable, UUPSUpgra
   IERC721 public predictcoinSquad;
   IBEP20 public predictcoin;
   mapping(uint => BorrowData) private borrowData;
+  EnumerableSetUpgradeable.UintSet private marketNFTs;
   mapping(address => EnumerableSetUpgradeable.UintSet) private allPrederBorrows;
 
   event Borrow(address indexed borrower, uint indexed index, uint amount);
@@ -75,8 +76,9 @@ contract PredictcoinSquadMarket is Initializable, PausableUpgradeable, UUPSUpgra
     } 
   }
 
-  function withdrawNFTs(uint[] memory indexes) external onlyOwner{
+  function withdrawNFTs(uint[] calldata indexes) external onlyOwner{
     for(uint i; i < indexes.length; i++){
+      marketNFTs.remove(indexes[i]);
       predictcoinSquad.safeTransferFrom(address(this), msg.sender, indexes[i]);
     }
   }
@@ -104,10 +106,15 @@ contract PredictcoinSquadMarket is Initializable, PausableUpgradeable, UUPSUpgra
     return returnData;
   }
 
+  function getMarketNFTs() external view returns(uint[] memory) {
+    return marketNFTs.values(); 
+  }
+
   //Ensure contract can receive ERC721 tokens
-  function onERC721Received(address operator, address from, uint256 tokenId, bytes memory data) pure override external 
+  function onERC721Received(address operator, address from, uint256 tokenId, bytes memory data) override external 
       returns(bytes4){
       (operator, from, data, tokenId);
+      marketNFTs.add(tokenId);
       return IERC721Receiver.onERC721Received.selector;
   }
 

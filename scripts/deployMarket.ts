@@ -8,12 +8,12 @@ async function main() {
     ? 1000 * await pred.decimals()
     : 1 * await pred.decimals();
   const lockPeriod = process.env.NODE_ENV === "production" 
-    ? 6 * 30 * 24 * 60 * 60 // 6 months
-    : 5 * 60 // 5 minutes;
+    ? 0 // 6 months
+    : 0 // 5 minutes;
   const Squad = await ethers.getContractFactory("PredictcoinSquad");
   const squad = Squad.attach(process.env.PREDICTCOIN_SQUAD as string);
 
-  const Market = await ethers.getContractFactory("PredictcoinSquadMarket");
+  const Market = await ethers.getContractFactory("PredictverseMarket");
   const market = await upgrades.deployProxy(
     Market, 
     [ 
