@@ -1,3 +1,4 @@
+import { BigNumber } from "ethers";
 import { ethers, upgrades } from "hardhat"
 
 async function main() {
@@ -5,8 +6,8 @@ async function main() {
   const Pred = await ethers.getContractFactory("Predictcoin");
   const pred = Pred.attach(process.env.PRED as string);
   const collateral = process.env.NODE_ENV === "production" 
-    ? 1000 * await pred.decimals()
-    : 1 * await pred.decimals();
+    ? BigNumber.from(1000).pow(await pred.decimals())
+    : BigNumber.from(10).pow(await pred.decimals());
   const lockPeriod = process.env.NODE_ENV === "production" 
     ? 0 // 6 months
     : 0 // 5 minutes;

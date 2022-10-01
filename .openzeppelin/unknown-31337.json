@@ -382,53 +382,58 @@
       "kind": "uups"
     },
     {
-      "address": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
-      "txHash": "0xba2a8040d99c650bf7d864e2b2433a5d27f6b51feac5da92e44055549c7cc076",
-      "kind": "uups"
-    },
-    {
       "address": "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318",
-      "txHash": "0xe6c70af6fb3721418bca748676bbfb5851ed01bad62ec06eecedc420fe5fb617",
+      "txHash": "0xe6bbc2a4350ef29b2672054eef626a96fc6b7b72aedea30ad8b793d4e1266f4c",
       "kind": "uups"
     },
     {
       "address": "0x959922bE3CAee4b8Cd9a407cc3ac1C251C2007B1",
-      "txHash": "0xd6b672d453d32b6d5ad5fe305b25784d9ce75fd1d343c98b225a8ecec3268744",
+      "txHash": "0x62144d9fb635f7c3588c0af0287de208d156511cd721f5009f4eaad5035ee0e9",
       "kind": "uups"
     },
     {
       "address": "0x4ed7c70F96B99c776995fB64377f0d4aB3B0e1C1",
-      "txHash": "0x1f24c89ea2aea03cdc72dc3a95fa014b2e09f33c21ba9b36eafafa77fb7ef3c2",
+      "txHash": "0xffe9f171956a3010d19c893b488efe5bd4528a1c59d203fdabced48b03a7032d",
       "kind": "uups"
     },
     {
       "address": "0xE6E340D132b5f46d1e472DebcD681B2aBc16e57E",
-      "txHash": "0xe8fe4dc7491ccb78cf4a2bd61549262f7ab92d166b5220142bf17d42e346b861",
+      "txHash": "0x7aea6023da66eb1230dc9a1812f0ed8d615317062e79312ae4aae5f940ebadd8",
       "kind": "uups"
     },
     {
       "address": "0x95401dc811bb5740090279Ba06cfA8fcF6113778",
-      "txHash": "0x8c07812619f7963911e78ab5cc90228e9f4ad5cb3af1ca1397048fff87b315cd",
+      "txHash": "0x758ba7fa6b1823acc1b3da9be27f03df679de7d444232059afe00b8af4f926f4",
       "kind": "uups"
     },
     {
       "address": "0x5eb3Bc0a489C5A8288765d2336659EbCA68FCd00",
-      "txHash": "0xe56fe3bd39dbf745173e4d70656560ec55fbfddb16494cdbdcea4e0d026e11b1",
+      "txHash": "0xe13ba4ad4e027b140ae0ecb1da62b447f8b50206260a94e9a904e882a1c67fbf",
       "kind": "uups"
     },
     {
       "address": "0x2bdCC0de6bE1f7D2ee689a0342D76F52E8EFABa3",
-      "txHash": "0x7e4db4d57504a02380ec3e7df4d861a31e75f23fde2d61d7952540ad6296bc39",
+      "txHash": "0x483f49ebd94d8c996ccb784218d232165599922f3998489fb13b18b501ca221e",
       "kind": "uups"
     },
     {
       "address": "0x1fA02b2d6A771842690194Cf62D91bdd92BfE28d",
-      "txHash": "0x8b60c5e5b7ee5588e42751c13e432e439d29574556e93c773a20b9d0c5762ad9",
+      "txHash": "0x41c26c5c867c1c9bda6620fdb2f84d63179de35bdf980363c4ff997db5ccdffb",
       "kind": "uups"
     },
     {
       "address": "0x0355B7B8cb128fA5692729Ab3AAa199C1753f726",
-      "txHash": "0x881aaf5cf1d5e327813031dbbedc88ea010570fc312a5870c1f6581f9791b584",
+      "txHash": "0xc7f4c07f1cf47009fe5ba1aedc1ae1fb34312ced5621dcd0e2959fda676a1cf4",
+      "kind": "uups"
+    },
+    {
+      "address": "0x2B0d36FACD61B71CC05ab8F3D2355ec3631C0dd5",
+      "txHash": "0x2589fa71bfbafacb57dfacfc8bd5e0276687e0f7709d2b111fd69039d91ce554",
+      "kind": "uups"
+    },
+    {
+      "address": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
+      "txHash": "0x62a0c4e7b2b56045bdee3da51e69917a831f1caf3ebdd2d8f4fc4ef8010fad14",
       "kind": "uups"
     }
   ],
@@ -724,9 +729,9 @@
         }
       }
     },
-    "a7305a9f576c61de15e3125f91ad36c6407b0c2fe26047660a5ad6b12c3f2dbe": {
+    "34109e194cd16cf5e6627e9a64bee576ddac41ad37538962c3a3d973d9582ea2": {
       "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
-      "txHash": "0x3c62863f51ee722bef3ef39f00c42486c0fbabc49690e4ba9fabb54d066f7559",
+      "txHash": "0xa3af4f7c40bc88750ced52d769bf21255b84aa6d6652bf93371f6ef8f11e88a9",
       "layout": {
         "storage": [
           {
@@ -807,48 +812,56 @@
             "offset": 0,
             "slot": "251",
             "type": "t_uint256",
-            "contract": "PredictcoinSquadMarket",
-            "src": "contracts/PredictcoinSquadMarket.sol:31"
+            "contract": "PredictverseMarket",
+            "src": "contracts/PredictverseMarket.sol:31"
           },
           {
             "label": "lockPeriod",
             "offset": 0,
             "slot": "252",
             "type": "t_uint256",
-            "contract": "PredictcoinSquadMarket",
-            "src": "contracts/PredictcoinSquadMarket.sol:32"
+            "contract": "PredictverseMarket",
+            "src": "contracts/PredictverseMarket.sol:32"
           },
           {
             "label": "predictcoinSquad",
             "offset": 0,
             "slot": "253",
             "type": "t_contract(IERC721)2000",
-            "contract": "PredictcoinSquadMarket",
-            "src": "contracts/PredictcoinSquadMarket.sol:33"
+            "contract": "PredictverseMarket",
+            "src": "contracts/PredictverseMarket.sol:33"
           },
           {
             "label": "predictcoin",
             "offset": 0,
             "slot": "254",
-            "type": "t_contract(IBEP20)2637",
-            "contract": "PredictcoinSquadMarket",
-            "src": "contracts/PredictcoinSquadMarket.sol:34"
+            "type": "t_contract(IBEP20)2665",
+            "contract": "PredictverseMarket",
+            "src": "contracts/PredictverseMarket.sol:34"
           },
           {
             "label": "borrowData",
             "offset": 0,
             "slot": "255",
             "type": "t_mapping(t_uint256,t_struct(BorrowData)2063_storage)",
-            "contract": "PredictcoinSquadMarket",
-            "src": "contracts/PredictcoinSquadMarket.sol:35"
+            "contract": "PredictverseMarket",
+            "src": "contracts/PredictverseMarket.sol:35"
+          },
+          {
+            "label": "marketNFTs",
+            "offset": 0,
+            "slot": "256",
+            "type": "t_struct(UintSet)1748_storage",
+            "contract": "PredictverseMarket",
+            "src": "contracts/PredictverseMarket.sol:36"
           },
           {
             "label": "allPrederBorrows",
             "offset": 0,
-            "slot": "256",
+            "slot": "258",
             "type": "t_mapping(t_address,t_struct(UintSet)1748_storage)",
-            "contract": "PredictcoinSquadMarket",
-            "src": "contracts/PredictcoinSquadMarket.sol:36"
+            "contract": "PredictverseMarket",
+            "src": "contracts/PredictverseMarket.sol:37"
           }
         ],
         "types": {
@@ -876,7 +889,7 @@
             "label": "bytes32",
             "numberOfBytes": "32"
           },
-          "t_contract(IBEP20)2637": {
+          "t_contract(IBEP20)2665": {
             "label": "contract IBEP20",
             "numberOfBytes": "20"
           },
@@ -893,11 +906,11 @@
             "numberOfBytes": "32"
           },
           "t_mapping(t_uint256,t_struct(BorrowData)2063_storage)": {
-            "label": "mapping(uint256 => struct PredictcoinSquadMarket.BorrowData)",
+            "label": "mapping(uint256 => struct PredictverseMarket.BorrowData)",
             "numberOfBytes": "32"
           },
           "t_struct(BorrowData)2063_storage": {
-            "label": "struct PredictcoinSquadMarket.BorrowData",
+            "label": "struct PredictverseMarket.BorrowData",
             "members": [
               {
                 "label": "collateral",

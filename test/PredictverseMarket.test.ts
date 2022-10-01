@@ -2,14 +2,14 @@ import { time, loadFixture } from "@nomicfoundation/hardhat-network-helpers";
 import { expect } from "chai";
 import { ethers, upgrades } from "hardhat";
 import { 
-  PredictcoinSquadMarket, 
+  PredictverseMarket, 
   Predictcoin, 
   PredictcoinSquad, 
  } from "../typechain-types";
 
 describe("PredictverseMarket", () => {
 
-  let market: PredictcoinSquadMarket, pred: Predictcoin, squad: PredictcoinSquad;
+  let market: PredictverseMarket, pred: Predictcoin, squad: PredictcoinSquad;
   let owner, prederA, prederB;
   let lockPeriod = 6 * 30 * 24 * 60 * 60;
   let collateral;
@@ -26,7 +26,7 @@ describe("PredictverseMarket", () => {
     const Market = await ethers.getContractFactory("PredictverseMarket");
     market = await upgrades.deployProxy(
       Market, [collateral, squad.address, pred.address, lockPeriod], {kind: "uups"}
-    ) as PredictcoinSquadMarket;
+    ) as PredictverseMarket;
     
     await squad.setApprovalForAll(market.address, true);
     await pred.approve(market.address, ethers.constants.MaxUint256);
@@ -147,6 +147,10 @@ describe("PredictverseMarket", () => {
       await expect(squad.tokenOfOwnerByIndex(market.address, 0))
         .to.be.revertedWith("ERC721Enumerable: owner index out of bounds");
     })
+
+    // it("test empty market NFTS", async () => {
+    //   await market.getMarketNFTs();
+    // })
 
     it("should return market NFTs", async () => {
       const nfts1 = await market.getMarketNFTs();
